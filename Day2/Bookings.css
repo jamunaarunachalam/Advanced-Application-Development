@@ -1,0 +1,104 @@
+.book{
+    height: 99.2vh;
+    width: 99.7%;
+    background-color: rgba(244, 204, 153, 0.438);
+    border: 3px solid rgba(90, 69, 2, 0.581);
+    opacity:0.8;
+    background-image: url('https://pearleventsaustin.com/wp-content/uploads/2021/03/Home-Page.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.booking-container {
+    position: absolute;
+    top: 40px;
+    left: 900px;
+    width: 300px;
+    height: 590px;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid rgba(90, 69, 2, 0.581);
+    border-radius: 10px;
+    background-color: rgba(60, 90, 11, 0.345);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.614);
+  }
+  
+  .booking-container h2 {
+    text-align: center;
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+  }
+  
+  .booking-container form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .booking-container input[type='text'],
+  .booking-container input[type='email'],
+  .booking-container input[type='tel'],
+  .booking-container input[type='date'],
+  .booking-container input[type='number'],
+  .booking-container select {
+    width: calc(100% - 22px); /* Adjust the size as needed */
+    padding: 10px;
+    font-size: 19px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.625);
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+.booking-container input[type='text']::placeholder,
+.booking-container input[type='email']::placeholder,
+.booking-container input[type='tel']::placeholder,
+.booking-container input[type='date']::placeholder,
+.booking-container input[type='number']::placeholder,
+.booking-container select::placeholder {
+  color: black; }
+
+  
+  .booking-container select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="rgba(155, 117, 60, 0.821)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5H7z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+    width: 300px;
+ 
+  }
+ 
+  
+  .booking-container select::-ms-expand {
+    display: none;
+  }
+  
+  .booking-container button {
+    width: 55%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: rgba(155, 117, 60, 0.821);
+    border: none;
+    border-radius: 75px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-container button:hover {
+    background-color: rgba(175, 116, 28, 0.751);
+  }
+  .bookingquote{
+    position: absolute;
+    top:400px;
+    left:90px;
+    font-size: 70px;
+    width: 700px;
+    color: rgba(0, 0, 0, 0.83);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
