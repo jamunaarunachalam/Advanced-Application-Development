@@ -1,0 +1,110 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top:300px;
+    width: 1519px;
+    height: 350px;
+    background-color: #333;
+    
+  }
+  
+  .footer-content p{
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-top: 100px;
+    margin-left:370px;
+    font-size: 15px;
+    
+    
+  }
+  
+  .footer-content h1{
+    position: absolute;
+    font-family:'Raleway';
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-left:670px;
+    font-size: 20px;
+    color: rgba(228, 200, 55, 0.63);
+}
+.insta{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 700px;
+}
+.face{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 730px;
+    
+}
+.link{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 760px;
+}
+.mail{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 790px;
+}
+.media a:hover{
+    color: rgb(226, 149, 16);
+}
+.contact h4{
+    color:  rgba(227, 167, 89, 0.701);
+    position: absolute;
+    font-size: 30px;
+    margin-top:200px;
+    margin-left:320px;
+
+ }
+ .contact p{
+    color: rgb(244, 231, 231);     
+    font-weight: 500;
+    padding-right: 0.r1em 0;
+    font-size: 1.05rem ;
+    position: relative;
+    top: 260px;
+    left: -360px;
+    padding: 3px 10px;
+    
+
+ }
+ .contact i{
+  
+    padding-right: 0.9rem;
+
+ }
+ .hcontact i{
+  
+    padding-right: 0.9rem;
+
+ }
+ .hhcontact h4{
+   color:  rgba(227, 167, 89, 0.701);
+   position: absolute;
+   font-size: 30px;
+   margin-top:115px;
+   margin-left:950px;
+
+}
+.hhcontact p{
+   color: rgb(244, 231, 231);     
+   font-weight: 500;
+   padding-right: 0.r1em 0;
+   font-size: 1.05rem ;
+   position: relative;
+   top: 160px;
+   left: 290px;
+   padding: 3px 10px;
+   
+
+}
+.hhcontact i{
+ 
+   padding-right: 0.9rem;
+
+}
