@@ -1,0 +1,81 @@
+.pay{
+    height: 99.2vh;
+    width: 99.7%;
+    background-color: rgba(244, 204, 153, 0.438);
+    border: 3px solid rgba(90, 69, 2, 0.581);
+    opacity: 0.8;
+    background-image: url('https://pearleventsaustin.com/wp-content/uploads/2021/03/Home-Page.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+.payment-form {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgba(90, 69, 2, 0.581);
+    border-radius: 10px;
+    background-color: rgba(60, 90, 11, 0.427);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.614);
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 38px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.625);
+  }
+  .form-group ::placeholder{
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 75px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+    width: 55%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgba(155, 117, 60, 0.821);
+    
+    
+  }
+  
+  .btn:hover {
+    background-color: rgba(175, 116, 28, 0.751);
+  }
+  

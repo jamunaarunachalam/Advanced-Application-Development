@@ -1,0 +1,109 @@
+
+.admin-gallery-container {
+    max-width: 700px;
+    margin: 0 auto;
+    top:-700px;
+    left: 100px;
+    padding: 40px;
+    text-align: center;
+    position: relative; /* Add position relative */
+}
+
+/* Background shape */
+.background-shape {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8; /* Background color */
+    border-radius: 20px; /* Border radius */
+}
+
+/* Header styling */
+.admin-gallery-container h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #704714;
+}
+
+/* Button for adding new images */
+.add-button {
+    margin-bottom: 70px;
+    text-align: center;
+    height: 60px;
+    width: 150px;
+    background-color: #4a2d2d48;
+    border-radius: 20px;
+}
+
+/* Grid layout for gallery cards */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Styling for individual gallery cards */
+.gallery-card {
+    border-radius: 8px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.679);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for gallery cards */
+.gallery-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Styling for images within gallery cards */
+.gallery-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Styling for details section of gallery cards */
+.card-details {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Styling for title within gallery cards */
+.card-details h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Styling for description within gallery cards */
+.card-details p {
+    margin-bottom: 0;
+    color: #777;
+}
+
+/* Container for buttons within gallery cards */
+.card-buttons {
+    margin-top: 10px;
+    text-align: center; /* Align buttons at center */
+}
+
+/* Styling for buttons within gallery cards */
+.card-buttons button {
+    background-color: #976014a4;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+/* Hover effect for buttons within gallery cards */
+.card-buttons button:hover {
+    background-color: #b3005c;
+}
